@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="9" name="payment-v1">
+    <Basepaths>/gcom/v1/payments</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1512069915664</CreatedAt>
+    <CreatedBy>vgadikota@google.com</CreatedBy>
+    <Description>Use these services to initiate payment transactions.</Description>
+    <DisplayName>payment-v1</DisplayName>
+    <LastModifiedAt>1512069915664</LastModifiedAt>
+    <LastModifiedBy>vgadikota@google.com</LastModifiedBy>
+    <Policies>
+        <Policy>FlowCalloutAuthentication</Policy>
+        <Policy>FlowCalloutErrorHandling</Policy>
+        <Policy>FlowCalloutPingResponse</Policy>
+        <Policy>FlowCalloutThreatProtection</Policy>
+        <Policy>FlowCalloutUndefinedResource</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
